@@ -10,6 +10,6 @@ class CalculatorTest {
     void testAddition() {
         Calculator calculator = new Calculator();
 
-        assertEquals(5, calculator.add(2, 3));
+        assertEquals(40, calculator.add(10, 30));
     }
 }
